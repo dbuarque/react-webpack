@@ -1,12 +1,12 @@
 # Repack
-Repack is a light and powerful react/webpack starter project. It goals is provide faster and easier web development tooling for scalable web projects.
+Repack is a light and powerful react/webpack starter project. It goals is provide faster development tooling for scalable web projects.
 
 ### Feature Roadmap
-* TDD Support with [Mocha](https://mochajs.org/)
-* BDD Support with [Chimp](https://chimp.readme.io/)
-* Integration with Travis CI
-* Integration with Codeship
-* Add Support for Redux
+* Add TDD Support with [Mocha](https://mochajs.org/)
+* Add BDD Support with [Chimp](https://chimp.readme.io/)
+* Add Travis CI Integration
+* Add Redux Support
+* Add Less/Sass Support
 
 ### Authors
 * @dbuarque

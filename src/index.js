@@ -5,6 +5,7 @@
 
 const vorpal = require('vorpal');
 const use = require('vorpal-use');
+
 const debug  = require('debug')('repack:base');
 
 export class RepackBase {

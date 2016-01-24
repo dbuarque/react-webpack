@@ -1,7 +1,6 @@
 import { RepackBase } from '../src/index';
 
 const should = require('should');
-const vorpal = require('vorpal');
 
 describe('RepackBase', function() {
     it('should be and object', function () {
@@ -16,6 +15,12 @@ describe('RepackBase', function() {
 
     it('#cli should be an instance of vorpal', function () {
         var base = new RepackBase();
+        const vorpal = require('vorpal');
+        base.cli.should.be.an.instanceOf(vorpal);
+    });
+    it('#cli should not be undefined', function () {
+        var base = new RepackBase();
+        const vorpal = require('vorpal');
         base.cli.should.be.an.instanceOf(vorpal);
     });
 });

@@ -1,6 +1,6 @@
 {
   "name": "repack-base",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Repack base cli",
   "homepage": "https://github.com/dbuarque/repack-base",
   "main": "dist/index.js",
